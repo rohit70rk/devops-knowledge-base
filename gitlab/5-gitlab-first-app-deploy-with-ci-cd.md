@@ -301,7 +301,46 @@ cat /opt/apps/johndoe-flask-portfolio/current_image.txt  # Store current image
 cat /opt/apps/johndoe-flask-portfolio/previous_image.txt # Store previous image
 ```
 
-## Step-5. Connect GitHub → GitLab
+## Step-5. Create Empty GitLab Repository
+
+Before adding GitLab as a remote, create an empty repository inside your GitLab group.
+
+### 1. Create New Project
+
+Go to:
+
+GitLab → Your Group → New Project → Create Blank Project
+
+Fill:
+- Project name → `ci-cd-test`
+- Visibility → Private (recommended)
+
+⚠️ Keep these unchecked:
+- Initialize repository with README
+- Add .gitignore
+- Add License
+
+Click:
+
+✅ Create project
+
+### 2. Copy Repository URL
+
+Example:
+```text
+https://gitlab-ce.example.com/example-org/ci-cd-test.git
+```
+
+### 3. Update These Values
+
+| Replace | With |
+|---|---|
+| `gitlab-ce.example.com` | Your GitLab domain |
+| `example-org` | Your GitLab group name |
+| `ci-cd-test` | Your repository name |
+
+
+## Step-6. Connect GitHub → GitLab
 
 ### 📌 GitHub → GitLab Sync Decision
 | Option | Reason Not Selected |
@@ -368,7 +407,7 @@ git push -u origin dev-test   # GitHub
 git push -u gitlab dev-test   # GitLab (triggers CI)
 ```
 
-## Step-6. MANUAL CI PIPELINE TRIGGER
+## Step-7. MANUAL CI PIPELINE TRIGGER
 
 - Go to: **GitLab → Project → Build → Pipelines**
 - Click: **New pipeline**
@@ -378,7 +417,7 @@ git push -u gitlab dev-test   # GitLab (triggers CI)
 ✅ **Result**
 Pipeline starts immediately in the following sequence: `build → test → push → deploy`
 
-## Step-7. MANUAL ROLLBACK COMMAND
+## Step-8. MANUAL ROLLBACK COMMAND
 
 To manually rollback to the previous version from the APP-VM:
 ```bash
@@ -392,7 +431,7 @@ cat previous_image.txt
 export IMAGE=$(cat previous_image.txt) && docker compose up -d --force-recreate
 ```
 
-## Step-8. Watch Pipeline
+## Step-9. Watch Pipeline
 
 Monitor the execution of your CI/CD flow from the web UI:
 **Project → Build → Pipelines**
