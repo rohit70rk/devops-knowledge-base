@@ -116,6 +116,8 @@ Required variables:
 - `APP_VM_SSH_KNOWN_HOSTS`
 - `SSH_PORT`
 - `BASE_DEPLOY_PATH`
+- `APP_NAME`
+- `EMAIL_TO`
 
 Ensure the GitLab Runner container can resolve the internal GitLab domain by editing `config.toml` on the BUILD-VM:
 ```bash
