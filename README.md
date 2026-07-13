@@ -33,5 +33,5 @@ These documents also act as the technical backbone for the articles featured on 
 I am passionate about building robust applications and scalable infrastructure systems. I specialize in backend development (Python), containerization (Docker/Kubernetes), and architecting self-hosted infrastructure environments from the ground up.
 
 * **GitHub:** [@rohit70rk](https://github.com/rohit70rk)
-* **LinkedIn:** [rohit-kumar-855053199](https://www.linkedin.com/in/rohit-kumar-855053199)
+* **LinkedIn:** [@rohit70rk](https://www.linkedin.com/in/rohit70rk/)
 * **Email:** [rohitkumar81953@gmail.com](mailto:rohitkumar81953@gmail.com)
