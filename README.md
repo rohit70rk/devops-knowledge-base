@@ -1,8 +1,8 @@
 # 🚀 DevOps Knowledge Base
 
-Welcome to my personal DevOps documentation repository. This project serves as a centralized hub for enterprise-grade infrastructure guides, configuration snippets, and CI/CD workflows. 
+Welcome to my personal DevOps and Cloud Engineering knowledge base. This repository is a centralized hub of production-tested infrastructure architectures, deployment patterns, and operational runbooks. 
 
-These documents also act as the technical backbone for the articles featured on my personal portfolio blog.
+Many of the guides and configurations documented here are abstracted from real-world systems I designed and built from scratch-including self-hosted CI/CD platforms on Proxmox, and scalable, serverless GPU processing pipelines on AWS for AI workloads.
 
 ## 📂 Repository Index
 
@@ -48,10 +48,16 @@ These documents also act as the technical backbone for the articles featured on 
 
 ## 👨‍💻 About the Author
 
-**Rohit Kumar** *Computer Science Graduate | Python Developer | Cloud & DevOps Engineer*
+**Rohit Kumar** *Python Developer | Cloud & DevOps Engineer*
 
-I am passionate about building robust applications and scalable infrastructure systems. I specialize in backend development (Python), containerization (Docker/Kubernetes), and architecting self-hosted infrastructure environments from the ground up.
+I am a Python Developer with hands-on experience in backend engineering, cloud infrastructure, and DevOps practices. I specialize in building scalable, cloud-native applications and architecting self-hosted infrastructure environments from the ground up.
+
+Previously, I worked as a Python Developer & DevOps Intern at Banao Technologies (ATGWorld Pvt Ltd), where I contributed to Vidya (an AI-powered personalized learning platform), built serverless GPU processing pipelines on AWS, and managed self-hosted GitLab CI/CD and Proxmox infrastructure. 
+
+Currently, I am working as a Freelance Python Developer building scientific dataset management platforms, AI workflow orchestration, and knowledge platforms. **I am actively open to full-time opportunities** in Python Development, Backend Engineering, DevOps, Cloud Engineering, and Full-Stack Development roles.
+
+**Tech Stack:** Python • FastAPI • Django • REST APIs • PostgreSQL • AWS • Docker • GitLab CI/CD • Linux • Proxmox VE
 
 * **GitHub:** [@rohit70rk](https://github.com/rohit70rk)
-* **LinkedIn:** [@rohit70rk](https://www.linkedin.com/in/rohit70rk/)
-* **Email:** [rohitkumar81953@gmail.com](mailto:rohitkumar81953@gmail.com)
+* **LinkedIn:** [rohit70rk](https://www.linkedin.com/in/rohit70rk/)
+* **Email:** [rohit70r.bth@gmail.com](mailto:rohit70r.bth@gmail.com)
