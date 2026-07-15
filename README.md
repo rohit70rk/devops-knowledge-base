@@ -16,6 +16,12 @@ These documents also act as the technical backbone for the articles featured on 
 * [4. Secure Authentication & Registry Lifecycle](gitlab/4-gitlab-auth-and-registry-lifecycle-basics.md) — Managing deploy tokens and establishing automated container registry cleanup policies.
 * [5. First App Deploy with CI/CD](gitlab/5-gitlab-first-app-deploy-with-ci-cd.md) — End-to-end CI/CD pipeline creation encompassing Build, Test, Push, Deploy, and automated Rollback stages.
 * [6. Centralized Email Notification](gitlab/6-gitlab-ce-email-notification.md) — Developing shared CI templates for consistent, cross-project SMTP deployment notifications.
+* **Real-World Setup Notes:**
+  * [Architecture & Design](gitlab/notes-from-real-setup/architecture-and-design.md)
+  * [Installation & Setup](gitlab/notes-from-real-setup/installation-and-setup.md)
+  * [Application Deployment Pattern](gitlab/notes-from-real-setup/application-deployment-pattern.md)
+  * [CI/CD Pipelines](gitlab/notes-from-real-setup/ci-cd-pipelines.md)
+  * [Operations & Maintenance](gitlab/notes-from-real-setup/operations-and-maintenance.md)
 
 ### ☸️ Kubernetes
 * [Kubernetes Cluster Setup Guide](kubernetes/k8s-setup-guide.md) — Bare-metal cluster initialization, Containerd runtime configuration, and Calico CNI networking setup.
@@ -23,6 +29,20 @@ These documents also act as the technical backbone for the articles featured on 
 ### 🖥️ Proxmox Infrastructure
 * [Proxmox VM Creation Guide](proxmox-infrastructure/proxmox-vm-creation-guide.md) — Step-by-step bare-metal VM provisioning without templates, including day-one OS and UFW configurations.
 * [System Information Collection Scripts](proxmox-infrastructure/collect-system-information.md) — Bash scripting for comprehensive auditing of Proxmox host health and individual VM prerequisites.
+* **Real-World Setup Notes:**
+  * [Architecture & Networking](proxmox-infrastructure/notes-from-real-setup/architecture-and-networking.md)
+  * [Proxmox Host Configuration](proxmox-infrastructure/notes-from-real-setup/proxmox-host-configuration.md)
+  * [VM Provisioning Patterns](proxmox-infrastructure/notes-from-real-setup/vm-provisioning-patterns.md)
+  * [Application Hosting Patterns](proxmox-infrastructure/notes-from-real-setup/application-hosting-patterns.md)
+  * [Operations & Maintenance](proxmox-infrastructure/notes-from-real-setup/operations-and-maintenance.md)
+
+### ☁️ AWS Async GPU Pipeline (Event-Driven)
+* **Real-World Setup Notes:**
+  * [Architecture & Design](aws-async-gpu-pipeline/notes-from-real-setup/architecture-and-design.md)
+  * [ECS GPU Capacity Provider](aws-async-gpu-pipeline/notes-from-real-setup/ecs-gpu-capacity-provider.md)
+  * [SQS & Lambda Orchestration](aws-async-gpu-pipeline/notes-from-real-setup/sqs-lambda-orchestration.md)
+  * [IAM & Networking](aws-async-gpu-pipeline/notes-from-real-setup/iam-and-networking.md)
+  * [Troubleshooting & Operations](aws-async-gpu-pipeline/notes-from-real-setup/troubleshooting-and-operations.md)
 
 ---
 
